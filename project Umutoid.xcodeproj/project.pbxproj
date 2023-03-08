@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2EEDE429B20AFB00086903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEDE329B20AFB00086903 /* AppDelegate.swift */; };
+		4C2EEDE629B20AFB00086903 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEDE529B20AFB00086903 /* SceneDelegate.swift */; };
+		4C2EEDE829B20AFB00086903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEDE729B20AFB00086903 /* ViewController.swift */; };
+		4C2EEDEB29B20AFB00086903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2EEDE929B20AFB00086903 /* Main.storyboard */; };
+		4C2EEDED29B20AFC00086903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2EEDEC29B20AFC00086903 /* Assets.xcassets */; };
+		4C2EEDF029B20AFC00086903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2EEDEE29B20AFC00086903 /* LaunchScreen.storyboard */; };
+		4C2EEDFB29B20AFC00086903 /* project_UmutoidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEDFA29B20AFC00086903 /* project_UmutoidTests.swift */; };
+		4C2EEE0529B20AFD00086903 /* project_UmutoidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE0429B20AFD00086903 /* project_UmutoidUITests.swift */; };
+		4C2EEE0729B20AFD00086903 /* project_UmutoidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE0629B20AFD00086903 /* project_UmutoidUITestsLaunchTests.swift */; };
+		4C2EEE1C29B22E5C00086903 /* ViewControllerSozlesme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE1B29B22E5C00086903 /* ViewControllerSozlesme.swift */; };
+		4C2EEE1E29B261EB00086903 /* ViewControllerGiris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE1D29B261EB00086903 /* ViewControllerGiris.swift */; };
+		4C2EEE2029B2622B00086903 /* ViewControllerMisafir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE1F29B2622B00086903 /* ViewControllerMisafir.swift */; };
+		4C2EEE2229B2624A00086903 /* ViewControllerkayit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE2129B2624A00086903 /* ViewControllerkayit.swift */; };
+		4C2EEE2429B28EBA00086903 /* ViewControllerchar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE2329B28EBA00086903 /* ViewControllerchar.swift */; };
+		4C2EEE2629B2980100086903 /* ViewControllerMacera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE2529B2980100086903 /* ViewControllerMacera.swift */; };
+		4C2EEE2B29B4B0E300086903 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EEE2A29B4B0E300086903 /* data.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2EEDF729B20AFC00086903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2EEDD829B20AFB00086903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2EEDDF29B20AFB00086903;
+			remoteInfo = "project Umutoid";
+		};
+		4C2EEE0129B20AFC00086903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2EEDD829B20AFB00086903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2EEDDF29B20AFB00086903;
+			remoteInfo = "project Umutoid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C2EEDE029B20AFB00086903 /* project Umutoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project Umutoid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2EEDE329B20AFB00086903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2EEDE529B20AFB00086903 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C2EEDE729B20AFB00086903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C2EEDEA29B20AFB00086903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2EEDEC29B20AFC00086903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2EEDEF29B20AFC00086903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2EEDF129B20AFC00086903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2EEDF629B20AFC00086903 /* project UmutoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project UmutoidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2EEDFA29B20AFC00086903 /* project_UmutoidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_UmutoidTests.swift; sourceTree = "<group>"; };
+		4C2EEE0029B20AFC00086903 /* project UmutoidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project UmutoidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2EEE0429B20AFD00086903 /* project_UmutoidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_UmutoidUITests.swift; sourceTree = "<group>"; };
+		4C2EEE0629B20AFD00086903 /* project_UmutoidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_UmutoidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C2EEE1B29B22E5C00086903 /* ViewControllerSozlesme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSozlesme.swift; sourceTree = "<group>"; };
+		4C2EEE1D29B261EB00086903 /* ViewControllerGiris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGiris.swift; sourceTree = "<group>"; };
+		4C2EEE1F29B2622B00086903 /* ViewControllerMisafir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMisafir.swift; sourceTree = "<group>"; };
+		4C2EEE2129B2624A00086903 /* ViewControllerkayit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerkayit.swift; sourceTree = "<group>"; };
+		4C2EEE2329B28EBA00086903 /* ViewControllerchar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerchar.swift; sourceTree = "<group>"; };
+		4C2EEE2529B2980100086903 /* ViewControllerMacera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMacera.swift; sourceTree = "<group>"; };
+		4C2EEE2A29B4B0E300086903 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2EEDDD29B20AFB00086903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDF329B20AFC00086903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDFD29B20AFC00086903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2EEDD729B20AFB00086903 = {
+			isa = PBXGroup;
+			children = (
+				4C2EEE2A29B4B0E300086903 /* data.swift */,
+				4C2EEDE229B20AFB00086903 /* project Umutoid */,
+				4C2EEDF929B20AFC00086903 /* project UmutoidTests */,
+				4C2EEE0329B20AFD00086903 /* project UmutoidUITests */,
+				4C2EEDE129B20AFB00086903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2EEDE129B20AFB00086903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EEDE029B20AFB00086903 /* project Umutoid.app */,
+				4C2EEDF629B20AFC00086903 /* project UmutoidTests.xctest */,
+				4C2EEE0029B20AFC00086903 /* project UmutoidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2EEDE229B20AFB00086903 /* project Umutoid */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EEDE329B20AFB00086903 /* AppDelegate.swift */,
+				4C2EEDE529B20AFB00086903 /* SceneDelegate.swift */,
+				4C2EEDE729B20AFB00086903 /* ViewController.swift */,
+				4C2EEDE929B20AFB00086903 /* Main.storyboard */,
+				4C2EEDEC29B20AFC00086903 /* Assets.xcassets */,
+				4C2EEDEE29B20AFC00086903 /* LaunchScreen.storyboard */,
+				4C2EEDF129B20AFC00086903 /* Info.plist */,
+				4C2EEE2529B2980100086903 /* ViewControllerMacera.swift */,
+				4C2EEE2129B2624A00086903 /* ViewControllerkayit.swift */,
+				4C2EEE1D29B261EB00086903 /* ViewControllerGiris.swift */,
+				4C2EEE1F29B2622B00086903 /* ViewControllerMisafir.swift */,
+				4C2EEE1B29B22E5C00086903 /* ViewControllerSozlesme.swift */,
+				4C2EEE2329B28EBA00086903 /* ViewControllerchar.swift */,
+			);
+			path = "project Umutoid";
+			sourceTree = "<group>";
+		};
+		4C2EEDF929B20AFC00086903 /* project UmutoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EEDFA29B20AFC00086903 /* project_UmutoidTests.swift */,
+			);
+			path = "project UmutoidTests";
+			sourceTree = "<group>";
+		};
+		4C2EEE0329B20AFD00086903 /* project UmutoidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2EEE0429B20AFD00086903 /* project_UmutoidUITests.swift */,
+				4C2EEE0629B20AFD00086903 /* project_UmutoidUITestsLaunchTests.swift */,
+			);
+			path = "project UmutoidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2EEDDF29B20AFB00086903 /* project Umutoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2EEE0A29B20AFD00086903 /* Build configuration list for PBXNativeTarget "project Umutoid" */;
+			buildPhases = (
+				4C2EEDDC29B20AFB00086903 /* Sources */,
+				4C2EEDDD29B20AFB00086903 /* Frameworks */,
+				4C2EEDDE29B20AFB00086903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "project Umutoid";
+			productName = "project Umutoid";
+			productReference = 4C2EEDE029B20AFB00086903 /* project Umutoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2EEDF529B20AFC00086903 /* project UmutoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2EEE0D29B20AFD00086903 /* Build configuration list for PBXNativeTarget "project UmutoidTests" */;
+			buildPhases = (
+				4C2EEDF229B20AFC00086903 /* Sources */,
+				4C2EEDF329B20AFC00086903 /* Frameworks */,
+				4C2EEDF429B20AFC00086903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2EEDF829B20AFC00086903 /* PBXTargetDependency */,
+			);
+			name = "project UmutoidTests";
+			productName = "project UmutoidTests";
+			productReference = 4C2EEDF629B20AFC00086903 /* project UmutoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C2EEDFF29B20AFC00086903 /* project UmutoidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2EEE1029B20AFD00086903 /* Build configuration list for PBXNativeTarget "project UmutoidUITests" */;
+			buildPhases = (
+				4C2EEDFC29B20AFC00086903 /* Sources */,
+				4C2EEDFD29B20AFC00086903 /* Frameworks */,
+				4C2EEDFE29B20AFC00086903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2EEE0229B20AFC00086903 /* PBXTargetDependency */,
+			);
+			name = "project UmutoidUITests";
+			productName = "project UmutoidUITests";
+			productReference = 4C2EEE0029B20AFC00086903 /* project UmutoidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2EEDD829B20AFB00086903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4C2EEDDF29B20AFB00086903 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4C2EEDF529B20AFC00086903 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4C2EEDDF29B20AFB00086903;
+					};
+					4C2EEDFF29B20AFC00086903 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4C2EEDDF29B20AFB00086903;
+					};
+				};
+			};
+			buildConfigurationList = 4C2EEDDB29B20AFB00086903 /* Build configuration list for PBXProject "project Umutoid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2EEDD729B20AFB00086903;
+			productRefGroup = 4C2EEDE129B20AFB00086903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2EEDDF29B20AFB00086903 /* project Umutoid */,
+				4C2EEDF529B20AFC00086903 /* project UmutoidTests */,
+				4C2EEDFF29B20AFC00086903 /* project UmutoidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2EEDDE29B20AFB00086903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2EEDF029B20AFC00086903 /* LaunchScreen.storyboard in Resources */,
+				4C2EEDED29B20AFC00086903 /* Assets.xcassets in Resources */,
+				4C2EEDEB29B20AFB00086903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDF429B20AFC00086903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDFE29B20AFC00086903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2EEDDC29B20AFB00086903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2EEE2429B28EBA00086903 /* ViewControllerchar.swift in Sources */,
+				4C2EEE2029B2622B00086903 /* ViewControllerMisafir.swift in Sources */,
+				4C2EEE2229B2624A00086903 /* ViewControllerkayit.swift in Sources */,
+				4C2EEE2B29B4B0E300086903 /* data.swift in Sources */,
+				4C2EEE1E29B261EB00086903 /* ViewControllerGiris.swift in Sources */,
+				4C2EEE1C29B22E5C00086903 /* ViewControllerSozlesme.swift in Sources */,
+				4C2EEE2629B2980100086903 /* ViewControllerMacera.swift in Sources */,
+				4C2EEDE829B20AFB00086903 /* ViewController.swift in Sources */,
+				4C2EEDE429B20AFB00086903 /* AppDelegate.swift in Sources */,
+				4C2EEDE629B20AFB00086903 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDF229B20AFC00086903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2EEDFB29B20AFC00086903 /* project_UmutoidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2EEDFC29B20AFC00086903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2EEE0729B20AFD00086903 /* project_UmutoidUITestsLaunchTests.swift in Sources */,
+				4C2EEE0529B20AFD00086903 /* project_UmutoidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2EEDF829B20AFC00086903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2EEDDF29B20AFB00086903 /* project Umutoid */;
+			targetProxy = 4C2EEDF729B20AFC00086903 /* PBXContainerItemProxy */;
+		};
+		4C2EEE0229B20AFC00086903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2EEDDF29B20AFB00086903 /* project Umutoid */;
+			targetProxy = 4C2EEE0129B20AFC00086903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C2EEDE929B20AFB00086903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2EEDEA29B20AFB00086903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2EEDEE29B20AFC00086903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2EEDEF29B20AFC00086903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2EEE0829B20AFD00086903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C2EEE0929B20AFD00086903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2EEE0B29B20AFD00086903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "project Umutoid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-Umutoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2EEE0C29B20AFD00086903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "project Umutoid/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-Umutoid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C2EEE0E29B20AFD00086903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-UmutoidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project Umutoid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project Umutoid";
+			};
+			name = Debug;
+		};
+		4C2EEE0F29B20AFD00086903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-UmutoidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project Umutoid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project Umutoid";
+			};
+			name = Release;
+		};
+		4C2EEE1129B20AFD00086903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-UmutoidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "project Umutoid";
+			};
+			name = Debug;
+		};
+		4C2EEE1229B20AFD00086903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "info.project-UmutoidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "project Umutoid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2EEDDB29B20AFB00086903 /* Build configuration list for PBXProject "project Umutoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2EEE0829B20AFD00086903 /* Debug */,
+				4C2EEE0929B20AFD00086903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2EEE0A29B20AFD00086903 /* Build configuration list for PBXNativeTarget "project Umutoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2EEE0B29B20AFD00086903 /* Debug */,
+				4C2EEE0C29B20AFD00086903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2EEE0D29B20AFD00086903 /* Build configuration list for PBXNativeTarget "project UmutoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2EEE0E29B20AFD00086903 /* Debug */,
+				4C2EEE0F29B20AFD00086903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2EEE1029B20AFD00086903 /* Build configuration list for PBXNativeTarget "project UmutoidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2EEE1129B20AFD00086903 /* Debug */,
+				4C2EEE1229B20AFD00086903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2EEDD829B20AFB00086903 /* Project object */;
+}
